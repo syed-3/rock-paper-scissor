@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(174, 221, 221);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    background-image: url(./rpsbg.jpg);
+    background-size: 50%;
+
+}
+
+button {
+    background-color: rgb(231, 162, 59);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.buttonR:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(31, 3, 3);
+    border-radius: 5px;
+    background-image: url(./rock.jpg);
+    background-size: 100% 100%;
+}
+
+.buttonP:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(31, 3, 3);
+    border-radius: 5px;
+    background-image: url(./paper.jpg);
+    background-size: 100% 100%;
+}
+
+.buttonS:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(31, 3, 3);
+    border-radius: 5px;
+    background-image: url(./scissor.jpg);
+    background-size: 100% 100%;
+}
+
+.buttonR:active,
+.buttonP:active,
+.buttonS:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(102, 102, 102);
+    transform: translatey(4px);
+}
+
+div {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.score {
+    padding: 10px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(7, 101, 129);
+}
